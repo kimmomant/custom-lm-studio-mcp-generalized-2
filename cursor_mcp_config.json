@@ -1,0 +1,18 @@
+{
+  "_comment": "IMPORTANT: Replace paths with your actual absolute paths",
+  "_windows_recommended": {
+    "command": "C:\\path\\to\\your\\custom-lm-studio-mcp-generalized-2\\start_generalized_mcp.bat",
+    "_example": "C:\\Users\\YourName\\PROJECTS\\custom-lm-studio-mcp-generalized-2\\start_generalized_mcp.bat"
+  },
+  "_macOS_linux": {
+    "command": "python3",
+    "args": ["/path/to/your/custom-lm-studio-mcp-generalized-2/launch_server.py"],
+    "_macOS_example": "/Users/YourName/Projects/custom-lm-studio-mcp-generalized-2/launch_server.py",
+    "_linux_example": "/home/YourName/Projects/custom-lm-studio-mcp-generalized-2/launch_server.py"
+  },
+  "mcpServers": {
+    "lm-studio-mcp-generalized": {
+      "command": "C:\\path\\to\\your\\custom-lm-studio-mcp-generalized-2\\start_generalized_mcp.bat"
+    }
+  }
+} 
